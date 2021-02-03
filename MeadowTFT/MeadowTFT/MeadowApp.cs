@@ -41,7 +41,6 @@ namespace MeadowTFT
 
             }
 
-
             IPAddress[] IPS = Dns.GetHostAddresses(Dns.GetHostName());
 
             foreach (IPAddress ip in IPS)
@@ -50,8 +49,6 @@ namespace MeadowTFT
                 Console.WriteLine("IP address: " + ip);
 
             }
-
-
 
         }
 
