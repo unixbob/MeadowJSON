@@ -4,7 +4,8 @@ sample code for the Meadow Microcontroller to create a JSON object and submit to
 https://www.wildernesslabs.co/developers
 
 The sql script creates a table in postgres for the API server to connect to.  
-Change the DB connection string in appsettings.json to reflect your postgres database
+
+For the API server, change the DB connection string in appsettings.json to reflect your postgres database.  It's just a simple bit of code, but the Meadow didn't support TLS when I built this.  So I needed a http only API server to test against
 
 For the Meadow, you'll need to configure the settings for your wireless network, and the location of the API server.  
 In MeadowApp.cs, in the ConnectToWifi() class, set your wifi SSID and password
