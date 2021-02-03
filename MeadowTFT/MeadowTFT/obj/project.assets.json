@@ -1,0 +1,1512 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Meadow/0.20.0": {
+        "type": "package",
+        "dependencies": {
+          "WildernessLabs.Meadow.Assemblies": "0.4.0"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net472/Meadow.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Meadow.dll": {}
+        }
+      },
+      "Meadow.Foundation/0.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Meadow": "0.20.0"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net472/Meadow.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Meadow.Foundation.dll": {}
+        }
+      },
+      "Meadow.Foundation.Displays.GraphicsLibrary/0.9.30": {
+        "type": "package",
+        "dependencies": {
+          "Meadow.Foundation": "0.22.0"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net472/GraphicsLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net472/GraphicsLibrary.dll": {}
+        }
+      },
+      "Meadow.Foundation.Displays.Ssd1306/0.12.28": {
+        "type": "package",
+        "dependencies": {
+          "Meadow.Foundation": "0.22.0",
+          "Meadow.Foundation.Displays.GraphicsLibrary": "0.9.30"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net472/Ssd1306.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Ssd1306.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encodings.Web/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Text.Json/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.4",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Text.Encodings.Web": "5.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Json.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "WildernessLabs.Meadow.Assemblies/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Accessibility.dll": {},
+          "lib/net472/Commons.Xml.Relaxng.dll": {},
+          "lib/net472/CustomMarshalers.dll": {},
+          "lib/net472/I18N.CJK.dll": {},
+          "lib/net472/I18N.MidEast.dll": {},
+          "lib/net472/I18N.Other.dll": {},
+          "lib/net472/I18N.Rare.dll": {},
+          "lib/net472/I18N.West.dll": {},
+          "lib/net472/I18N.dll": {},
+          "lib/net472/IBM.Data.DB2.dll": {},
+          "lib/net472/ICSharpCode.SharpZipLib.dll": {},
+          "lib/net472/Microsoft.CSharp.dll": {},
+          "lib/net472/Microsoft.VisualC.dll": {},
+          "lib/net472/Microsoft.Web.Infrastructure.dll": {},
+          "lib/net472/Mono.Btls.Interface.dll": {},
+          "lib/net472/Mono.C5.dll": {},
+          "lib/net472/Mono.CSharp.dll": {},
+          "lib/net472/Mono.Cairo.dll": {},
+          "lib/net472/Mono.Cecil.Mdb.dll": {},
+          "lib/net472/Mono.Cecil.dll": {},
+          "lib/net472/Mono.CodeContracts.dll": {},
+          "lib/net472/Mono.CompilerServices.SymbolWriter.dll": {},
+          "lib/net472/Mono.Configuration.Crypto.dll": {},
+          "lib/net472/Mono.Data.Sqlite.dll": {},
+          "lib/net472/Mono.Data.Tds.dll": {},
+          "lib/net472/Mono.Debugger.Soft.dll": {},
+          "lib/net472/Mono.Http.dll": {},
+          "lib/net472/Mono.Management.dll": {},
+          "lib/net472/Mono.Messaging.RabbitMQ.dll": {},
+          "lib/net472/Mono.Messaging.dll": {},
+          "lib/net472/Mono.Options.dll": {},
+          "lib/net472/Mono.Parallel.dll": {},
+          "lib/net472/Mono.Posix.dll": {},
+          "lib/net472/Mono.Profiler.Log.dll": {},
+          "lib/net472/Mono.Security.Win32.dll": {},
+          "lib/net472/Mono.Security.dll": {},
+          "lib/net472/Mono.Simd.dll": {},
+          "lib/net472/Mono.Tasklets.dll": {},
+          "lib/net472/Mono.WebBrowser.dll": {},
+          "lib/net472/Mono.XBuild.Tasks.dll": {},
+          "lib/net472/Novell.Directory.Ldap.dll": {},
+          "lib/net472/PEAPI.dll": {},
+          "lib/net472/RabbitMQ.Client.dll": {},
+          "lib/net472/SMDiagnostics.dll": {},
+          "lib/net472/System.ComponentModel.Composition.dll": {},
+          "lib/net472/System.ComponentModel.DataAnnotations.dll": {},
+          "lib/net472/System.Configuration.Install.dll": {},
+          "lib/net472/System.Configuration.dll": {},
+          "lib/net472/System.Core.dll": {},
+          "lib/net472/System.Data.DataSetExtensions.dll": {},
+          "lib/net472/System.Data.Entity.dll": {},
+          "lib/net472/System.Data.Linq.dll": {},
+          "lib/net472/System.Data.OracleClient.dll": {},
+          "lib/net472/System.Data.Services.Client.dll": {},
+          "lib/net472/System.Data.Services.dll": {},
+          "lib/net472/System.Data.dll": {},
+          "lib/net472/System.Deployment.dll": {},
+          "lib/net472/System.Design.dll": {},
+          "lib/net472/System.DirectoryServices.Protocols.dll": {},
+          "lib/net472/System.DirectoryServices.dll": {},
+          "lib/net472/System.Drawing.dll": {},
+          "lib/net472/System.Dynamic.dll": {},
+          "lib/net472/System.EnterpriseServices.dll": {},
+          "lib/net472/System.IO.Compression.FileSystem.dll": {},
+          "lib/net472/System.IO.Compression.dll": {},
+          "lib/net472/System.IdentityModel.Selectors.dll": {},
+          "lib/net472/System.IdentityModel.dll": {},
+          "lib/net472/System.Json.dll": {},
+          "lib/net472/System.Management.dll": {},
+          "lib/net472/System.Messaging.dll": {},
+          "lib/net472/System.Net.Http.dll": {},
+          "lib/net472/System.Net.dll": {},
+          "lib/net472/System.Numerics.Vectors.dll": {},
+          "lib/net472/System.Numerics.dll": {},
+          "lib/net472/System.Reactive.Core.dll": {},
+          "lib/net472/System.Reactive.Debugger.dll": {},
+          "lib/net472/System.Reactive.Experimental.dll": {},
+          "lib/net472/System.Reactive.Interfaces.dll": {},
+          "lib/net472/System.Reactive.Linq.dll": {},
+          "lib/net472/System.Reactive.Observable.Aliases.dll": {},
+          "lib/net472/System.Reactive.PlatformServices.dll": {},
+          "lib/net472/System.Reactive.Providers.dll": {},
+          "lib/net472/System.Reactive.Runtime.Remoting.dll": {},
+          "lib/net472/System.Reflection.Context.dll": {},
+          "lib/net472/System.Runtime.Caching.dll": {},
+          "lib/net472/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "lib/net472/System.Runtime.DurableInstancing.dll": {},
+          "lib/net472/System.Runtime.Remoting.dll": {},
+          "lib/net472/System.Runtime.Serialization.Formatters.Soap.dll": {},
+          "lib/net472/System.Runtime.Serialization.dll": {},
+          "lib/net472/System.Security.dll": {},
+          "lib/net472/System.ServiceModel.Activation.dll": {},
+          "lib/net472/System.ServiceModel.Discovery.dll": {},
+          "lib/net472/System.ServiceModel.Internals.dll": {},
+          "lib/net472/System.ServiceModel.Routing.dll": {},
+          "lib/net472/System.ServiceModel.Web.dll": {},
+          "lib/net472/System.ServiceModel.dll": {},
+          "lib/net472/System.ServiceProcess.dll": {},
+          "lib/net472/System.Threading.Tasks.Dataflow.dll": {},
+          "lib/net472/System.Transactions.dll": {},
+          "lib/net472/System.Workflow.Activities.dll": {},
+          "lib/net472/System.Workflow.ComponentModel.dll": {},
+          "lib/net472/System.Workflow.Runtime.dll": {},
+          "lib/net472/System.Xml.Linq.dll": {},
+          "lib/net472/System.Xml.Serialization.dll": {},
+          "lib/net472/System.Xml.dll": {},
+          "lib/net472/System.dll": {},
+          "lib/net472/SystemWebTestShim.dll": {},
+          "lib/net472/cscompmgd.dll": {},
+          "lib/net472/monodoc.dll": {},
+          "lib/net472/mscorlib.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Accessibility.dll": {},
+          "lib/net472/Commons.Xml.Relaxng.dll": {},
+          "lib/net472/CustomMarshalers.dll": {},
+          "lib/net472/I18N.CJK.dll": {},
+          "lib/net472/I18N.MidEast.dll": {},
+          "lib/net472/I18N.Other.dll": {},
+          "lib/net472/I18N.Rare.dll": {},
+          "lib/net472/I18N.West.dll": {},
+          "lib/net472/I18N.dll": {},
+          "lib/net472/IBM.Data.DB2.dll": {},
+          "lib/net472/ICSharpCode.SharpZipLib.dll": {},
+          "lib/net472/Microsoft.CSharp.dll": {},
+          "lib/net472/Microsoft.VisualC.dll": {},
+          "lib/net472/Microsoft.Web.Infrastructure.dll": {},
+          "lib/net472/Mono.Btls.Interface.dll": {},
+          "lib/net472/Mono.C5.dll": {},
+          "lib/net472/Mono.CSharp.dll": {},
+          "lib/net472/Mono.Cairo.dll": {},
+          "lib/net472/Mono.Cecil.Mdb.dll": {},
+          "lib/net472/Mono.Cecil.dll": {},
+          "lib/net472/Mono.CodeContracts.dll": {},
+          "lib/net472/Mono.CompilerServices.SymbolWriter.dll": {},
+          "lib/net472/Mono.Configuration.Crypto.dll": {},
+          "lib/net472/Mono.Data.Sqlite.dll": {},
+          "lib/net472/Mono.Data.Tds.dll": {},
+          "lib/net472/Mono.Debugger.Soft.dll": {},
+          "lib/net472/Mono.Http.dll": {},
+          "lib/net472/Mono.Management.dll": {},
+          "lib/net472/Mono.Messaging.RabbitMQ.dll": {},
+          "lib/net472/Mono.Messaging.dll": {},
+          "lib/net472/Mono.Options.dll": {},
+          "lib/net472/Mono.Parallel.dll": {},
+          "lib/net472/Mono.Posix.dll": {},
+          "lib/net472/Mono.Profiler.Log.dll": {},
+          "lib/net472/Mono.Security.Win32.dll": {},
+          "lib/net472/Mono.Security.dll": {},
+          "lib/net472/Mono.Simd.dll": {},
+          "lib/net472/Mono.Tasklets.dll": {},
+          "lib/net472/Mono.WebBrowser.dll": {},
+          "lib/net472/Mono.XBuild.Tasks.dll": {},
+          "lib/net472/Novell.Directory.Ldap.dll": {},
+          "lib/net472/PEAPI.dll": {},
+          "lib/net472/RabbitMQ.Client.dll": {},
+          "lib/net472/SMDiagnostics.dll": {},
+          "lib/net472/System.ComponentModel.Composition.dll": {},
+          "lib/net472/System.ComponentModel.DataAnnotations.dll": {},
+          "lib/net472/System.Configuration.Install.dll": {},
+          "lib/net472/System.Configuration.dll": {},
+          "lib/net472/System.Core.dll": {},
+          "lib/net472/System.Data.DataSetExtensions.dll": {},
+          "lib/net472/System.Data.Entity.dll": {},
+          "lib/net472/System.Data.Linq.dll": {},
+          "lib/net472/System.Data.OracleClient.dll": {},
+          "lib/net472/System.Data.Services.Client.dll": {},
+          "lib/net472/System.Data.Services.dll": {},
+          "lib/net472/System.Data.dll": {},
+          "lib/net472/System.Deployment.dll": {},
+          "lib/net472/System.Design.dll": {},
+          "lib/net472/System.DirectoryServices.Protocols.dll": {},
+          "lib/net472/System.DirectoryServices.dll": {},
+          "lib/net472/System.Drawing.dll": {},
+          "lib/net472/System.Dynamic.dll": {},
+          "lib/net472/System.EnterpriseServices.dll": {},
+          "lib/net472/System.IO.Compression.FileSystem.dll": {},
+          "lib/net472/System.IO.Compression.dll": {},
+          "lib/net472/System.IdentityModel.Selectors.dll": {},
+          "lib/net472/System.IdentityModel.dll": {},
+          "lib/net472/System.Json.dll": {},
+          "lib/net472/System.Management.dll": {},
+          "lib/net472/System.Messaging.dll": {},
+          "lib/net472/System.Net.Http.dll": {},
+          "lib/net472/System.Net.dll": {},
+          "lib/net472/System.Numerics.Vectors.dll": {},
+          "lib/net472/System.Numerics.dll": {},
+          "lib/net472/System.Reactive.Core.dll": {},
+          "lib/net472/System.Reactive.Debugger.dll": {},
+          "lib/net472/System.Reactive.Experimental.dll": {},
+          "lib/net472/System.Reactive.Interfaces.dll": {},
+          "lib/net472/System.Reactive.Linq.dll": {},
+          "lib/net472/System.Reactive.Observable.Aliases.dll": {},
+          "lib/net472/System.Reactive.PlatformServices.dll": {},
+          "lib/net472/System.Reactive.Providers.dll": {},
+          "lib/net472/System.Reactive.Runtime.Remoting.dll": {},
+          "lib/net472/System.Reflection.Context.dll": {},
+          "lib/net472/System.Runtime.Caching.dll": {},
+          "lib/net472/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "lib/net472/System.Runtime.DurableInstancing.dll": {},
+          "lib/net472/System.Runtime.Remoting.dll": {},
+          "lib/net472/System.Runtime.Serialization.Formatters.Soap.dll": {},
+          "lib/net472/System.Runtime.Serialization.dll": {},
+          "lib/net472/System.Security.dll": {},
+          "lib/net472/System.ServiceModel.Activation.dll": {},
+          "lib/net472/System.ServiceModel.Discovery.dll": {},
+          "lib/net472/System.ServiceModel.Internals.dll": {},
+          "lib/net472/System.ServiceModel.Routing.dll": {},
+          "lib/net472/System.ServiceModel.Web.dll": {},
+          "lib/net472/System.ServiceModel.dll": {},
+          "lib/net472/System.ServiceProcess.dll": {},
+          "lib/net472/System.Threading.Tasks.Dataflow.dll": {},
+          "lib/net472/System.Transactions.dll": {},
+          "lib/net472/System.Workflow.Activities.dll": {},
+          "lib/net472/System.Workflow.ComponentModel.dll": {},
+          "lib/net472/System.Workflow.Runtime.dll": {},
+          "lib/net472/System.Xml.Linq.dll": {},
+          "lib/net472/System.Xml.Serialization.dll": {},
+          "lib/net472/System.Xml.dll": {},
+          "lib/net472/System.dll": {},
+          "lib/net472/SystemWebTestShim.dll": {},
+          "lib/net472/cscompmgd.dll": {},
+          "lib/net472/monodoc.dll": {},
+          "lib/net472/mscorlib.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win7-x86": {
+      "Meadow/0.20.0": {
+        "type": "package",
+        "dependencies": {
+          "WildernessLabs.Meadow.Assemblies": "0.4.0"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net472/Meadow.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Meadow.dll": {}
+        }
+      },
+      "Meadow.Foundation/0.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Meadow": "0.20.0"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net472/Meadow.Foundation.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Meadow.Foundation.dll": {}
+        }
+      },
+      "Meadow.Foundation.Displays.GraphicsLibrary/0.9.30": {
+        "type": "package",
+        "dependencies": {
+          "Meadow.Foundation": "0.22.0"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net472/GraphicsLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/net472/GraphicsLibrary.dll": {}
+        }
+      },
+      "Meadow.Foundation.Displays.Ssd1306/0.12.28": {
+        "type": "package",
+        "dependencies": {
+          "Meadow.Foundation": "0.22.0",
+          "Meadow.Foundation.Displays.GraphicsLibrary": "0.9.30"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net472/Ssd1306.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Ssd1306.dll": {}
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encodings.Web/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "System.Text.Json/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Memory": "4.5.4",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Text.Encodings.Web": "5.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "System.ValueTuple": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Json.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "WildernessLabs.Meadow.Assemblies/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Accessibility.dll": {},
+          "lib/net472/Commons.Xml.Relaxng.dll": {},
+          "lib/net472/CustomMarshalers.dll": {},
+          "lib/net472/I18N.CJK.dll": {},
+          "lib/net472/I18N.MidEast.dll": {},
+          "lib/net472/I18N.Other.dll": {},
+          "lib/net472/I18N.Rare.dll": {},
+          "lib/net472/I18N.West.dll": {},
+          "lib/net472/I18N.dll": {},
+          "lib/net472/IBM.Data.DB2.dll": {},
+          "lib/net472/ICSharpCode.SharpZipLib.dll": {},
+          "lib/net472/Microsoft.CSharp.dll": {},
+          "lib/net472/Microsoft.VisualC.dll": {},
+          "lib/net472/Microsoft.Web.Infrastructure.dll": {},
+          "lib/net472/Mono.Btls.Interface.dll": {},
+          "lib/net472/Mono.C5.dll": {},
+          "lib/net472/Mono.CSharp.dll": {},
+          "lib/net472/Mono.Cairo.dll": {},
+          "lib/net472/Mono.Cecil.Mdb.dll": {},
+          "lib/net472/Mono.Cecil.dll": {},
+          "lib/net472/Mono.CodeContracts.dll": {},
+          "lib/net472/Mono.CompilerServices.SymbolWriter.dll": {},
+          "lib/net472/Mono.Configuration.Crypto.dll": {},
+          "lib/net472/Mono.Data.Sqlite.dll": {},
+          "lib/net472/Mono.Data.Tds.dll": {},
+          "lib/net472/Mono.Debugger.Soft.dll": {},
+          "lib/net472/Mono.Http.dll": {},
+          "lib/net472/Mono.Management.dll": {},
+          "lib/net472/Mono.Messaging.RabbitMQ.dll": {},
+          "lib/net472/Mono.Messaging.dll": {},
+          "lib/net472/Mono.Options.dll": {},
+          "lib/net472/Mono.Parallel.dll": {},
+          "lib/net472/Mono.Posix.dll": {},
+          "lib/net472/Mono.Profiler.Log.dll": {},
+          "lib/net472/Mono.Security.Win32.dll": {},
+          "lib/net472/Mono.Security.dll": {},
+          "lib/net472/Mono.Simd.dll": {},
+          "lib/net472/Mono.Tasklets.dll": {},
+          "lib/net472/Mono.WebBrowser.dll": {},
+          "lib/net472/Mono.XBuild.Tasks.dll": {},
+          "lib/net472/Novell.Directory.Ldap.dll": {},
+          "lib/net472/PEAPI.dll": {},
+          "lib/net472/RabbitMQ.Client.dll": {},
+          "lib/net472/SMDiagnostics.dll": {},
+          "lib/net472/System.ComponentModel.Composition.dll": {},
+          "lib/net472/System.ComponentModel.DataAnnotations.dll": {},
+          "lib/net472/System.Configuration.Install.dll": {},
+          "lib/net472/System.Configuration.dll": {},
+          "lib/net472/System.Core.dll": {},
+          "lib/net472/System.Data.DataSetExtensions.dll": {},
+          "lib/net472/System.Data.Entity.dll": {},
+          "lib/net472/System.Data.Linq.dll": {},
+          "lib/net472/System.Data.OracleClient.dll": {},
+          "lib/net472/System.Data.Services.Client.dll": {},
+          "lib/net472/System.Data.Services.dll": {},
+          "lib/net472/System.Data.dll": {},
+          "lib/net472/System.Deployment.dll": {},
+          "lib/net472/System.Design.dll": {},
+          "lib/net472/System.DirectoryServices.Protocols.dll": {},
+          "lib/net472/System.DirectoryServices.dll": {},
+          "lib/net472/System.Drawing.dll": {},
+          "lib/net472/System.Dynamic.dll": {},
+          "lib/net472/System.EnterpriseServices.dll": {},
+          "lib/net472/System.IO.Compression.FileSystem.dll": {},
+          "lib/net472/System.IO.Compression.dll": {},
+          "lib/net472/System.IdentityModel.Selectors.dll": {},
+          "lib/net472/System.IdentityModel.dll": {},
+          "lib/net472/System.Json.dll": {},
+          "lib/net472/System.Management.dll": {},
+          "lib/net472/System.Messaging.dll": {},
+          "lib/net472/System.Net.Http.dll": {},
+          "lib/net472/System.Net.dll": {},
+          "lib/net472/System.Numerics.Vectors.dll": {},
+          "lib/net472/System.Numerics.dll": {},
+          "lib/net472/System.Reactive.Core.dll": {},
+          "lib/net472/System.Reactive.Debugger.dll": {},
+          "lib/net472/System.Reactive.Experimental.dll": {},
+          "lib/net472/System.Reactive.Interfaces.dll": {},
+          "lib/net472/System.Reactive.Linq.dll": {},
+          "lib/net472/System.Reactive.Observable.Aliases.dll": {},
+          "lib/net472/System.Reactive.PlatformServices.dll": {},
+          "lib/net472/System.Reactive.Providers.dll": {},
+          "lib/net472/System.Reactive.Runtime.Remoting.dll": {},
+          "lib/net472/System.Reflection.Context.dll": {},
+          "lib/net472/System.Runtime.Caching.dll": {},
+          "lib/net472/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "lib/net472/System.Runtime.DurableInstancing.dll": {},
+          "lib/net472/System.Runtime.Remoting.dll": {},
+          "lib/net472/System.Runtime.Serialization.Formatters.Soap.dll": {},
+          "lib/net472/System.Runtime.Serialization.dll": {},
+          "lib/net472/System.Security.dll": {},
+          "lib/net472/System.ServiceModel.Activation.dll": {},
+          "lib/net472/System.ServiceModel.Discovery.dll": {},
+          "lib/net472/System.ServiceModel.Internals.dll": {},
+          "lib/net472/System.ServiceModel.Routing.dll": {},
+          "lib/net472/System.ServiceModel.Web.dll": {},
+          "lib/net472/System.ServiceModel.dll": {},
+          "lib/net472/System.ServiceProcess.dll": {},
+          "lib/net472/System.Threading.Tasks.Dataflow.dll": {},
+          "lib/net472/System.Transactions.dll": {},
+          "lib/net472/System.Workflow.Activities.dll": {},
+          "lib/net472/System.Workflow.ComponentModel.dll": {},
+          "lib/net472/System.Workflow.Runtime.dll": {},
+          "lib/net472/System.Xml.Linq.dll": {},
+          "lib/net472/System.Xml.Serialization.dll": {},
+          "lib/net472/System.Xml.dll": {},
+          "lib/net472/System.dll": {},
+          "lib/net472/SystemWebTestShim.dll": {},
+          "lib/net472/cscompmgd.dll": {},
+          "lib/net472/monodoc.dll": {},
+          "lib/net472/mscorlib.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Accessibility.dll": {},
+          "lib/net472/Commons.Xml.Relaxng.dll": {},
+          "lib/net472/CustomMarshalers.dll": {},
+          "lib/net472/I18N.CJK.dll": {},
+          "lib/net472/I18N.MidEast.dll": {},
+          "lib/net472/I18N.Other.dll": {},
+          "lib/net472/I18N.Rare.dll": {},
+          "lib/net472/I18N.West.dll": {},
+          "lib/net472/I18N.dll": {},
+          "lib/net472/IBM.Data.DB2.dll": {},
+          "lib/net472/ICSharpCode.SharpZipLib.dll": {},
+          "lib/net472/Microsoft.CSharp.dll": {},
+          "lib/net472/Microsoft.VisualC.dll": {},
+          "lib/net472/Microsoft.Web.Infrastructure.dll": {},
+          "lib/net472/Mono.Btls.Interface.dll": {},
+          "lib/net472/Mono.C5.dll": {},
+          "lib/net472/Mono.CSharp.dll": {},
+          "lib/net472/Mono.Cairo.dll": {},
+          "lib/net472/Mono.Cecil.Mdb.dll": {},
+          "lib/net472/Mono.Cecil.dll": {},
+          "lib/net472/Mono.CodeContracts.dll": {},
+          "lib/net472/Mono.CompilerServices.SymbolWriter.dll": {},
+          "lib/net472/Mono.Configuration.Crypto.dll": {},
+          "lib/net472/Mono.Data.Sqlite.dll": {},
+          "lib/net472/Mono.Data.Tds.dll": {},
+          "lib/net472/Mono.Debugger.Soft.dll": {},
+          "lib/net472/Mono.Http.dll": {},
+          "lib/net472/Mono.Management.dll": {},
+          "lib/net472/Mono.Messaging.RabbitMQ.dll": {},
+          "lib/net472/Mono.Messaging.dll": {},
+          "lib/net472/Mono.Options.dll": {},
+          "lib/net472/Mono.Parallel.dll": {},
+          "lib/net472/Mono.Posix.dll": {},
+          "lib/net472/Mono.Profiler.Log.dll": {},
+          "lib/net472/Mono.Security.Win32.dll": {},
+          "lib/net472/Mono.Security.dll": {},
+          "lib/net472/Mono.Simd.dll": {},
+          "lib/net472/Mono.Tasklets.dll": {},
+          "lib/net472/Mono.WebBrowser.dll": {},
+          "lib/net472/Mono.XBuild.Tasks.dll": {},
+          "lib/net472/Novell.Directory.Ldap.dll": {},
+          "lib/net472/PEAPI.dll": {},
+          "lib/net472/RabbitMQ.Client.dll": {},
+          "lib/net472/SMDiagnostics.dll": {},
+          "lib/net472/System.ComponentModel.Composition.dll": {},
+          "lib/net472/System.ComponentModel.DataAnnotations.dll": {},
+          "lib/net472/System.Configuration.Install.dll": {},
+          "lib/net472/System.Configuration.dll": {},
+          "lib/net472/System.Core.dll": {},
+          "lib/net472/System.Data.DataSetExtensions.dll": {},
+          "lib/net472/System.Data.Entity.dll": {},
+          "lib/net472/System.Data.Linq.dll": {},
+          "lib/net472/System.Data.OracleClient.dll": {},
+          "lib/net472/System.Data.Services.Client.dll": {},
+          "lib/net472/System.Data.Services.dll": {},
+          "lib/net472/System.Data.dll": {},
+          "lib/net472/System.Deployment.dll": {},
+          "lib/net472/System.Design.dll": {},
+          "lib/net472/System.DirectoryServices.Protocols.dll": {},
+          "lib/net472/System.DirectoryServices.dll": {},
+          "lib/net472/System.Drawing.dll": {},
+          "lib/net472/System.Dynamic.dll": {},
+          "lib/net472/System.EnterpriseServices.dll": {},
+          "lib/net472/System.IO.Compression.FileSystem.dll": {},
+          "lib/net472/System.IO.Compression.dll": {},
+          "lib/net472/System.IdentityModel.Selectors.dll": {},
+          "lib/net472/System.IdentityModel.dll": {},
+          "lib/net472/System.Json.dll": {},
+          "lib/net472/System.Management.dll": {},
+          "lib/net472/System.Messaging.dll": {},
+          "lib/net472/System.Net.Http.dll": {},
+          "lib/net472/System.Net.dll": {},
+          "lib/net472/System.Numerics.Vectors.dll": {},
+          "lib/net472/System.Numerics.dll": {},
+          "lib/net472/System.Reactive.Core.dll": {},
+          "lib/net472/System.Reactive.Debugger.dll": {},
+          "lib/net472/System.Reactive.Experimental.dll": {},
+          "lib/net472/System.Reactive.Interfaces.dll": {},
+          "lib/net472/System.Reactive.Linq.dll": {},
+          "lib/net472/System.Reactive.Observable.Aliases.dll": {},
+          "lib/net472/System.Reactive.PlatformServices.dll": {},
+          "lib/net472/System.Reactive.Providers.dll": {},
+          "lib/net472/System.Reactive.Runtime.Remoting.dll": {},
+          "lib/net472/System.Reflection.Context.dll": {},
+          "lib/net472/System.Runtime.Caching.dll": {},
+          "lib/net472/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "lib/net472/System.Runtime.DurableInstancing.dll": {},
+          "lib/net472/System.Runtime.Remoting.dll": {},
+          "lib/net472/System.Runtime.Serialization.Formatters.Soap.dll": {},
+          "lib/net472/System.Runtime.Serialization.dll": {},
+          "lib/net472/System.Security.dll": {},
+          "lib/net472/System.ServiceModel.Activation.dll": {},
+          "lib/net472/System.ServiceModel.Discovery.dll": {},
+          "lib/net472/System.ServiceModel.Internals.dll": {},
+          "lib/net472/System.ServiceModel.Routing.dll": {},
+          "lib/net472/System.ServiceModel.Web.dll": {},
+          "lib/net472/System.ServiceModel.dll": {},
+          "lib/net472/System.ServiceProcess.dll": {},
+          "lib/net472/System.Threading.Tasks.Dataflow.dll": {},
+          "lib/net472/System.Transactions.dll": {},
+          "lib/net472/System.Workflow.Activities.dll": {},
+          "lib/net472/System.Workflow.ComponentModel.dll": {},
+          "lib/net472/System.Workflow.Runtime.dll": {},
+          "lib/net472/System.Xml.Linq.dll": {},
+          "lib/net472/System.Xml.Serialization.dll": {},
+          "lib/net472/System.Xml.dll": {},
+          "lib/net472/System.dll": {},
+          "lib/net472/SystemWebTestShim.dll": {},
+          "lib/net472/cscompmgd.dll": {},
+          "lib/net472/monodoc.dll": {},
+          "lib/net472/mscorlib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Meadow/0.20.0": {
+      "sha512": "XtWVm/mwImjGDmWPzi+HnvZYQr/4yKri8Boviv5IUsk0+QpsMl2u2oGjVOyXJ2JZR8EcAMav10p20k/rAAtieg==",
+      "type": "package",
+      "path": "meadow/0.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Meadow.dll",
+        "meadow.0.20.0.nupkg.sha512",
+        "meadow.nuspec"
+      ]
+    },
+    "Meadow.Foundation/0.22.0": {
+      "sha512": "65vCr6AsKX+6ft0uF8uqQcizwQhrH/PgRHiV3arpD2Ot/PHm2vwCIRn7A5QQR5ETVe9zgTc+zn4syh7WZ3b4sw==",
+      "type": "package",
+      "path": "meadow.foundation/0.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Meadow.Foundation.dll",
+        "meadow.foundation.0.22.0.nupkg.sha512",
+        "meadow.foundation.nuspec"
+      ]
+    },
+    "Meadow.Foundation.Displays.GraphicsLibrary/0.9.30": {
+      "sha512": "uCNlZhynscilvnGv54fmy6jy6jAPPQ8ecad1Pqf1sl42jP8mN1B4P1564olLYPlEKrFs9RVzVScTVAroOKLLvA==",
+      "type": "package",
+      "path": "meadow.foundation.displays.graphicslibrary/0.9.30",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/GraphicsLibrary.dll",
+        "meadow.foundation.displays.graphicslibrary.0.9.30.nupkg.sha512",
+        "meadow.foundation.displays.graphicslibrary.nuspec"
+      ]
+    },
+    "Meadow.Foundation.Displays.Ssd1306/0.12.28": {
+      "sha512": "Mbo1RbfIWD/ZWXqlnt5E/vhJabe+oQVkYKyWT2zopo+q6mygqR45fFCmSuxn2LTrOCCEx9gdSnVwgM6kMhcQtQ==",
+      "type": "package",
+      "path": "meadow.foundation.displays.ssd1306/0.12.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Ssd1306.dll",
+        "meadow.foundation.displays.ssd1306.0.12.28.nupkg.sha512",
+        "meadow.foundation.displays.ssd1306.nuspec"
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+      "sha512": "W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
+      "type": "package",
+      "path": "microsoft.bcl.asyncinterfaces/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/net461/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
+        "microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/5.0.0": {
+      "sha512": "EEslUvHKll1ftizbn20mX3Ix/l4Ygk/bdJ2LY6/X6FlGaP0RIhKMo9nS6JIGnKKT6KBP2PGj6JC3B9/ZF6ErqQ==",
+      "type": "package",
+      "path": "system.text.encodings.web/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Encodings.Web.dll",
+        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/netcoreapp3.0/System.Text.Encodings.Web.dll",
+        "lib/netcoreapp3.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.1/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.1/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.5.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Json/5.0.1": {
+      "sha512": "/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ==",
+      "type": "package",
+      "path": "system.text.json/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.5.0.1.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "WildernessLabs.Meadow.Assemblies/0.4.0": {
+      "sha512": "EGTJOCNbbhsb++n91133p4vbqMl6SOk/3MkN3r03nxS9nVvzgzh79BC4enPB1UMYnmb9MFcSZWbU05LFgyKW1g==",
+      "type": "package",
+      "path": "wildernesslabs.meadow.assemblies/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Accessibility.dll",
+        "lib/net472/Accessibility.pdb",
+        "lib/net472/Commons.Xml.Relaxng.dll",
+        "lib/net472/Commons.Xml.Relaxng.pdb",
+        "lib/net472/CustomMarshalers.dll",
+        "lib/net472/CustomMarshalers.pdb",
+        "lib/net472/I18N.CJK.dll",
+        "lib/net472/I18N.CJK.pdb",
+        "lib/net472/I18N.MidEast.dll",
+        "lib/net472/I18N.MidEast.pdb",
+        "lib/net472/I18N.Other.dll",
+        "lib/net472/I18N.Other.pdb",
+        "lib/net472/I18N.Rare.dll",
+        "lib/net472/I18N.Rare.pdb",
+        "lib/net472/I18N.West.dll",
+        "lib/net472/I18N.West.pdb",
+        "lib/net472/I18N.dll",
+        "lib/net472/I18N.pdb",
+        "lib/net472/IBM.Data.DB2.dll",
+        "lib/net472/IBM.Data.DB2.pdb",
+        "lib/net472/ICSharpCode.SharpZipLib.dll",
+        "lib/net472/ICSharpCode.SharpZipLib.pdb",
+        "lib/net472/Microsoft.CSharp.dll",
+        "lib/net472/Microsoft.CSharp.pdb",
+        "lib/net472/Microsoft.VisualC.dll",
+        "lib/net472/Microsoft.VisualC.pdb",
+        "lib/net472/Microsoft.Web.Infrastructure.dll",
+        "lib/net472/Microsoft.Web.Infrastructure.pdb",
+        "lib/net472/Mono.Btls.Interface.dll",
+        "lib/net472/Mono.Btls.Interface.pdb",
+        "lib/net472/Mono.C5.dll",
+        "lib/net472/Mono.C5.pdb",
+        "lib/net472/Mono.CSharp.dll",
+        "lib/net472/Mono.CSharp.pdb",
+        "lib/net472/Mono.Cairo.dll",
+        "lib/net472/Mono.Cairo.pdb",
+        "lib/net472/Mono.Cecil.Mdb.dll",
+        "lib/net472/Mono.Cecil.Mdb.pdb",
+        "lib/net472/Mono.Cecil.dll",
+        "lib/net472/Mono.Cecil.pdb",
+        "lib/net472/Mono.CodeContracts.dll",
+        "lib/net472/Mono.CodeContracts.pdb",
+        "lib/net472/Mono.CompilerServices.SymbolWriter.dll",
+        "lib/net472/Mono.CompilerServices.SymbolWriter.pdb",
+        "lib/net472/Mono.Configuration.Crypto.dll",
+        "lib/net472/Mono.Configuration.Crypto.pdb",
+        "lib/net472/Mono.Data.Sqlite.dll",
+        "lib/net472/Mono.Data.Sqlite.pdb",
+        "lib/net472/Mono.Data.Tds.dll",
+        "lib/net472/Mono.Data.Tds.pdb",
+        "lib/net472/Mono.Debugger.Soft.dll",
+        "lib/net472/Mono.Debugger.Soft.pdb",
+        "lib/net472/Mono.Http.dll",
+        "lib/net472/Mono.Http.pdb",
+        "lib/net472/Mono.Management.dll",
+        "lib/net472/Mono.Management.pdb",
+        "lib/net472/Mono.Messaging.RabbitMQ.dll",
+        "lib/net472/Mono.Messaging.RabbitMQ.pdb",
+        "lib/net472/Mono.Messaging.dll",
+        "lib/net472/Mono.Messaging.pdb",
+        "lib/net472/Mono.Options.dll",
+        "lib/net472/Mono.Options.pdb",
+        "lib/net472/Mono.Parallel.dll",
+        "lib/net472/Mono.Parallel.pdb",
+        "lib/net472/Mono.Posix.dll",
+        "lib/net472/Mono.Posix.pdb",
+        "lib/net472/Mono.Profiler.Log.dll",
+        "lib/net472/Mono.Profiler.Log.pdb",
+        "lib/net472/Mono.Security.Win32.dll",
+        "lib/net472/Mono.Security.Win32.pdb",
+        "lib/net472/Mono.Security.dll",
+        "lib/net472/Mono.Security.pdb",
+        "lib/net472/Mono.Simd.dll",
+        "lib/net472/Mono.Simd.pdb",
+        "lib/net472/Mono.Tasklets.dll",
+        "lib/net472/Mono.Tasklets.pdb",
+        "lib/net472/Mono.WebBrowser.dll",
+        "lib/net472/Mono.WebBrowser.pdb",
+        "lib/net472/Mono.XBuild.Tasks.dll",
+        "lib/net472/Mono.XBuild.Tasks.pdb",
+        "lib/net472/Novell.Directory.Ldap.dll",
+        "lib/net472/Novell.Directory.Ldap.pdb",
+        "lib/net472/PEAPI.dll",
+        "lib/net472/PEAPI.pdb",
+        "lib/net472/RabbitMQ.Client.Apigen.pdb",
+        "lib/net472/RabbitMQ.Client.dll",
+        "lib/net472/RabbitMQ.Client.pdb",
+        "lib/net472/SMDiagnostics.dll",
+        "lib/net472/SMDiagnostics.pdb",
+        "lib/net472/System.ComponentModel.Composition.dll",
+        "lib/net472/System.ComponentModel.Composition.pdb",
+        "lib/net472/System.ComponentModel.DataAnnotations.dll",
+        "lib/net472/System.ComponentModel.DataAnnotations.pdb",
+        "lib/net472/System.Configuration.Install.dll",
+        "lib/net472/System.Configuration.Install.pdb",
+        "lib/net472/System.Configuration.dll",
+        "lib/net472/System.Configuration.pdb",
+        "lib/net472/System.Core.dll",
+        "lib/net472/System.Core.pdb",
+        "lib/net472/System.Data.DataSetExtensions.dll",
+        "lib/net472/System.Data.DataSetExtensions.pdb",
+        "lib/net472/System.Data.Entity.dll",
+        "lib/net472/System.Data.Entity.pdb",
+        "lib/net472/System.Data.Linq.dll",
+        "lib/net472/System.Data.Linq.pdb",
+        "lib/net472/System.Data.OracleClient.dll",
+        "lib/net472/System.Data.OracleClient.pdb",
+        "lib/net472/System.Data.Services.Client.dll",
+        "lib/net472/System.Data.Services.Client.pdb",
+        "lib/net472/System.Data.Services.dll",
+        "lib/net472/System.Data.Services.pdb",
+        "lib/net472/System.Data.dll",
+        "lib/net472/System.Data.pdb",
+        "lib/net472/System.Deployment.dll",
+        "lib/net472/System.Deployment.pdb",
+        "lib/net472/System.Design.dll",
+        "lib/net472/System.Design.pdb",
+        "lib/net472/System.DirectoryServices.Protocols.dll",
+        "lib/net472/System.DirectoryServices.Protocols.pdb",
+        "lib/net472/System.DirectoryServices.dll",
+        "lib/net472/System.DirectoryServices.pdb",
+        "lib/net472/System.Drawing.dll",
+        "lib/net472/System.Drawing.pdb",
+        "lib/net472/System.Dynamic.dll",
+        "lib/net472/System.Dynamic.pdb",
+        "lib/net472/System.EnterpriseServices.dll",
+        "lib/net472/System.EnterpriseServices.pdb",
+        "lib/net472/System.IO.Compression.FileSystem.dll",
+        "lib/net472/System.IO.Compression.FileSystem.pdb",
+        "lib/net472/System.IO.Compression.dll",
+        "lib/net472/System.IO.Compression.pdb",
+        "lib/net472/System.IdentityModel.Selectors.dll",
+        "lib/net472/System.IdentityModel.Selectors.pdb",
+        "lib/net472/System.IdentityModel.dll",
+        "lib/net472/System.IdentityModel.pdb",
+        "lib/net472/System.Json.dll",
+        "lib/net472/System.Json.pdb",
+        "lib/net472/System.Management.dll",
+        "lib/net472/System.Management.pdb",
+        "lib/net472/System.Messaging.dll",
+        "lib/net472/System.Messaging.pdb",
+        "lib/net472/System.Net.Http.dll",
+        "lib/net472/System.Net.Http.pdb",
+        "lib/net472/System.Net.dll",
+        "lib/net472/System.Net.pdb",
+        "lib/net472/System.Numerics.Vectors.dll",
+        "lib/net472/System.Numerics.Vectors.pdb",
+        "lib/net472/System.Numerics.dll",
+        "lib/net472/System.Numerics.pdb",
+        "lib/net472/System.Reactive.Core.dll",
+        "lib/net472/System.Reactive.Core.pdb",
+        "lib/net472/System.Reactive.Debugger.dll",
+        "lib/net472/System.Reactive.Debugger.pdb",
+        "lib/net472/System.Reactive.Experimental.dll",
+        "lib/net472/System.Reactive.Experimental.pdb",
+        "lib/net472/System.Reactive.Interfaces.dll",
+        "lib/net472/System.Reactive.Interfaces.pdb",
+        "lib/net472/System.Reactive.Linq.dll",
+        "lib/net472/System.Reactive.Linq.pdb",
+        "lib/net472/System.Reactive.Observable.Aliases.dll",
+        "lib/net472/System.Reactive.Observable.Aliases.pdb",
+        "lib/net472/System.Reactive.PlatformServices.dll",
+        "lib/net472/System.Reactive.PlatformServices.pdb",
+        "lib/net472/System.Reactive.Providers.dll",
+        "lib/net472/System.Reactive.Providers.pdb",
+        "lib/net472/System.Reactive.Runtime.Remoting.dll",
+        "lib/net472/System.Reactive.Runtime.Remoting.pdb",
+        "lib/net472/System.Reflection.Context.dll",
+        "lib/net472/System.Reflection.Context.pdb",
+        "lib/net472/System.Runtime.Caching.dll",
+        "lib/net472/System.Runtime.Caching.pdb",
+        "lib/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net472/System.Runtime.DurableInstancing.dll",
+        "lib/net472/System.Runtime.DurableInstancing.pdb",
+        "lib/net472/System.Runtime.Remoting.dll",
+        "lib/net472/System.Runtime.Remoting.pdb",
+        "lib/net472/System.Runtime.Serialization.Formatters.Soap.dll",
+        "lib/net472/System.Runtime.Serialization.Formatters.Soap.pdb",
+        "lib/net472/System.Runtime.Serialization.dll",
+        "lib/net472/System.Runtime.Serialization.pdb",
+        "lib/net472/System.Security.dll",
+        "lib/net472/System.Security.pdb",
+        "lib/net472/System.ServiceModel.Activation.dll",
+        "lib/net472/System.ServiceModel.Activation.pdb",
+        "lib/net472/System.ServiceModel.Discovery.dll",
+        "lib/net472/System.ServiceModel.Discovery.pdb",
+        "lib/net472/System.ServiceModel.Internals.dll",
+        "lib/net472/System.ServiceModel.Internals.pdb",
+        "lib/net472/System.ServiceModel.Routing.dll",
+        "lib/net472/System.ServiceModel.Routing.pdb",
+        "lib/net472/System.ServiceModel.Web.dll",
+        "lib/net472/System.ServiceModel.Web.pdb",
+        "lib/net472/System.ServiceModel.dll",
+        "lib/net472/System.ServiceModel.pdb",
+        "lib/net472/System.ServiceProcess.dll",
+        "lib/net472/System.ServiceProcess.pdb",
+        "lib/net472/System.Threading.Tasks.Dataflow.dll",
+        "lib/net472/System.Threading.Tasks.Dataflow.pdb",
+        "lib/net472/System.Transactions.dll",
+        "lib/net472/System.Transactions.pdb",
+        "lib/net472/System.Workflow.Activities.dll",
+        "lib/net472/System.Workflow.Activities.pdb",
+        "lib/net472/System.Workflow.ComponentModel.dll",
+        "lib/net472/System.Workflow.ComponentModel.pdb",
+        "lib/net472/System.Workflow.Runtime.dll",
+        "lib/net472/System.Workflow.Runtime.pdb",
+        "lib/net472/System.Xml.Linq.dll",
+        "lib/net472/System.Xml.Linq.pdb",
+        "lib/net472/System.Xml.Serialization.dll",
+        "lib/net472/System.Xml.dll",
+        "lib/net472/System.Xml.pdb",
+        "lib/net472/System.dll",
+        "lib/net472/System.pdb",
+        "lib/net472/SystemWebTestShim.dll",
+        "lib/net472/SystemWebTestShim.pdb",
+        "lib/net472/cscompmgd.dll",
+        "lib/net472/cscompmgd.pdb",
+        "lib/net472/monodoc.dll",
+        "lib/net472/monodoc.pdb",
+        "lib/net472/monolinker.pdb",
+        "lib/net472/monop.pdb",
+        "lib/net472/mscorlib.dll",
+        "lib/net472/mscorlib.pdb",
+        "wildernesslabs.meadow.assemblies.0.4.0.nupkg.sha512",
+        "wildernesslabs.meadow.assemblies.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Meadow.Foundation >= 0.*",
+      "Meadow.Foundation.Displays.Ssd1306 >= 0.12.28",
+      "System.Text.Json >= 5.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\roreyno\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\roreyno\\source\\repos\\Meadow JSON API Client and Server\\MeadowTFT\\MeadowTFT\\MeadowTFT.csproj",
+      "projectName": "App",
+      "projectPath": "C:\\Users\\roreyno\\source\\repos\\Meadow JSON API Client and Server\\MeadowTFT\\MeadowTFT\\MeadowTFT.csproj",
+      "packagesPath": "C:\\Users\\roreyno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\roreyno\\source\\repos\\Meadow JSON API Client and Server\\MeadowTFT\\MeadowTFT\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\roreyno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "Meadow.Foundation": {
+            "target": "Package",
+            "version": "[0.*, )"
+          },
+          "Meadow.Foundation.Displays.Ssd1306": {
+            "target": "Package",
+            "version": "[0.12.28, )"
+          },
+          "System.Text.Json": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

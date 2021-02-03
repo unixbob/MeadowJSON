@@ -1,0 +1,5 @@
+C:\Users\roreyno\source\repos\MeadowTFT\MeadowTFT\obj\Debug\net5.0\MeadowTFT.csprojAssemblyReference.cache
+C:\Users\roreyno\source\repos\MeadowTFT\MeadowTFT\obj\Debug\net5.0\MeadowTFT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roreyno\source\repos\MeadowTFT\MeadowTFT\obj\Debug\net5.0\MeadowTFT.AssemblyInfoInputs.cache
+C:\Users\roreyno\source\repos\MeadowTFT\MeadowTFT\obj\Debug\net5.0\MeadowTFT.AssemblyInfo.cs
+C:\Users\roreyno\source\repos\MeadowTFT\MeadowTFT\obj\Debug\net5.0\MeadowTFT.csproj.CoreCompileInputs.cache
